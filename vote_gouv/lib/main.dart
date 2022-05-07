@@ -9,15 +9,15 @@ import 'constants/colors.dart';
 late Box box;
 
 Future<void> main() async {
-  await Hive.initFlutter();
-  box = await Hive.openBox('CitizenBox');
-  Hive.registerAdapter(CitizenInfoAdapter());
-  box.add(citizenIllyas);
-  box.add(citizenThomas);
-  box.add(citizenValentin);
-  box.add(citizenKaan);
-  box.add(citizenAntoine);
-  box.add(citizenMohammed);
+  // await Hive.initFlutter();
+  // box = await Hive.openBox('CitizenBox');
+  // Hive.registerAdapter(CitizenInfoAdapter());
+  // box.add(citizenIllyas);
+  // box.add(citizenThomas);
+  // box.add(citizenValentin);
+  // box.add(citizenKaan);
+  // box.add(citizenAntoine);
+  // box.add(citizenMohammed);
   runApp(const MyApp());
 }
 
