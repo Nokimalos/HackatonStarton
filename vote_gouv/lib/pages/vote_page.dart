@@ -35,7 +35,7 @@ class _MyVotePageState extends State<MyVotePage> {
               ),
               const SizedBox(height: 5),
               MyElectionCard(
-                  imagelink: "assets/images/présidentielles.jpg",
+                  imagelink: const AssetImage("assets/images/présidentielles.jpg"),
                   name: 'Présidentielles',
                   color: grise,
                   onTap: () {}),

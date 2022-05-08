@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vote_gouv/constants/colors.dart';
+import 'package:vote_gouv/pages/ResultPage.dart';
 import 'package:vote_gouv/pages/vote_page.dart';
 import 'package:vote_gouv/widget/bottom_nav_bar.dart';
-import 'package:vote_gouv/pages/ResultPage.dart';
+
 
 import '../widget/card_info.dart';
 
@@ -55,7 +56,7 @@ class ListCandidate extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            SizedBox(height: 25),
+            const SizedBox(height: 25),
             Text(
               "Les candidats",
               style: GoogleFonts.bebasNeue(
@@ -67,75 +68,75 @@ class ListCandidate extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 25),
+            const SizedBox(height: 25),
             MyCard(
-                imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),
+                imagelink: const AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),
                 name: 'Jean-Luc-Melenchon',
                 color: pClearRed,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/marine.jpg"),
+                imagelink: const AssetImage("assets/images/marine.jpg"),
                 name: 'Marine Le Pen',
                 color: pBlackBlue,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/Nathalie-Arthaud.jpg"),
+                imagelink: const AssetImage("assets/images/Nathalie-Arthaud.jpg"),
                 name: 'Nathalie Arthaud',
                 color: pBlackRed,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/nicolas.jpg"),
+                imagelink: const AssetImage("assets/images/nicolas.jpg"),
                 name: 'Nicolas Dupont-Aignan',
                 color: pClearBlue,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/hidalgo.jpg"),
+                imagelink: const AssetImage("assets/images/hidalgo.jpg"),
                 name: 'Anne Hidalgo',
                 color: pClearRed,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/jadot.jpg"),
+                imagelink: const AssetImage("assets/images/jadot.jpg"),
                 name: 'Yannick Jadot',
                 color: pClearGreen,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/lasalle.jpg"),
+                imagelink: const AssetImage("assets/images/lasalle.jpg"),
                 name: 'Jean Lassalle',
                 color: pClearBlue,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/macron.jpg"),
+                imagelink: const AssetImage("assets/images/macron.jpg"),
                 name: 'Emmanuel Macron',
                 color: pClearBlue,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/pecresse.jpg"),
+                imagelink: const AssetImage("assets/images/pecresse.jpg"),
                 name: 'Valérie Pécresse',
                 color: pBlackBlue,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/poutou.jpg"),
+                imagelink: const AssetImage("assets/images/poutou.jpg"),
                 name: 'Philippe Poutou',
                 color: pBlackRed,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/roussel.jpg"),
+                imagelink: const AssetImage("assets/images/roussel.jpg"),
                 name: 'Fabien Roussel',
                 color: pClearRed,
                 onTap: () {}),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             MyCard(
-                imagelink: AssetImage("assets/images/zemour.jpg"),
+                imagelink: const AssetImage("assets/images/zemour.jpg"),
                 name: 'Éric Zemmour',
                 color: pBlackBlue,
                 onTap: () {}),

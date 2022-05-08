@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import '../constants/colors.dart';
+import '../pages/login_page.dart';
 
 
 class MyElectionCardDead extends StatelessWidget {
@@ -50,7 +51,7 @@ class MyElectionCardDead extends StatelessWidget {
 class MyElectionCard extends StatelessWidget {
   const MyElectionCard({ Key? key, required this.imagelink, required this.name, required this.color, required this.onTap }) : super(key: key);
 
-  final String imagelink;
+  final ImageProvider imagelink;
   final String name;
   final Color color;
   final void Function() onTap;
@@ -64,11 +65,24 @@ class MyElectionCard extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: [
-            Image.asset(
-              imagelink,
+            Ink.image(
+              image: imagelink,
               height: 130,
               width : 400,
               fit: BoxFit.cover,
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const Login(),
+                    ),
+                  );
+                },
+                child: const Center(
+                  child: Text('YELLOW'),
+                )
+              ),
             ),
             Text(
               name,
