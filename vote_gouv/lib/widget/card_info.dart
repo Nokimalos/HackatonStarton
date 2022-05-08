@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-
+import 'package:google_fonts/google_fonts.dart';
 
 class MyCard extends StatelessWidget {
   const MyCard({ Key? key, required this.imagelink, required this.name, required this.color, required this.onTap }) : super(key: key);
@@ -30,10 +29,11 @@ class MyCard extends StatelessWidget {
             ),
             Text(
               name,
-              style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 24,
+              style: GoogleFonts.bebasNeue(
+                textStyle: const TextStyle(
+                  fontSize: 34,
+                  color: Colors.white,
+                ),
               ),
             ),
         ],

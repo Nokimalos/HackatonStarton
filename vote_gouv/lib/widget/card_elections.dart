@@ -1,8 +1,9 @@
 import 'package:blur/blur.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 
 import '../constants/colors.dart';
-
 
 
 class MyElectionCardDead extends StatelessWidget {
@@ -32,10 +33,12 @@ class MyElectionCardDead extends StatelessWidget {
             ),
             Text(
               name,
-              style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 30,
+              style: GoogleFonts.bebasNeue(
+                textStyle: const TextStyle(
+                  letterSpacing: 4,
+                  fontSize: 35,
+                  color: Colors.white,
+                ),
               ),
             ),
         ],
@@ -69,10 +72,12 @@ class MyElectionCard extends StatelessWidget {
             ),
             Text(
               name,
-              style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 30,
+              style: GoogleFonts.bebasNeue(
+                textStyle: const TextStyle(
+                  letterSpacing: 3,
+                  fontSize: 35,
+                  color: Colors.white,
+                ),
               ),
             ),
         ],
