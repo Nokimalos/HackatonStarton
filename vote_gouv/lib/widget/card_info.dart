@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 
 
 class MyCard extends StatelessWidget {
-  const MyCard({ Key? key, required this.imagelink, required this.name, required this.color }) : super(key: key);
+  const MyCard({ Key? key, required this.imagelink, required this.name, required this.color, required this.onTap }) : super(key: key);
 
   final AssetImage imagelink;
   final String name;
   final Color color;
+  final void Function() onTap;
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -21,7 +22,7 @@ class MyCard extends StatelessWidget {
           Ink.image(
               image: imagelink,
               child: InkWell(
-                onTap: () {},
+                onTap: onTap,
               ),
               height: 200,
               fit: BoxFit.cover,
