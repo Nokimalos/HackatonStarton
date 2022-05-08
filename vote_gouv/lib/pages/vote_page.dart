@@ -39,16 +39,10 @@ class _MyVotePageState extends State<MyVotePage> {
              scrollDirection: Axis.vertical,
              child: Column(
                children: const [
-                SizedBox(height: 25),
-                MyCard(imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),name: 'Jean-Luc-Melenchon', color: pClearRed,),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/marine.jpg"),name: 'Marine Le Pen', color: pBlackBlue),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/Nathalie-Arthaud.jpg"),name: 'Nathalie Arthaud', color: pBlackRed),
                 SizedBox(height: 15),
                 MyCard(imagelink: AssetImage("assets/images/nicolas.jpg"),name: 'Nicolas Dupont-Aignan', color: pClearBlue),
                 SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/hidalgo.jpg"),name: 'Anne Hidalgo', color: pClearRed),
+                MyCard(imagelink: AssetImage("assets/images/hidalgo.jpg"),name: 'Anne a Hidalgo', color: pClearRed),
                 SizedBox(height: 15),
                 MyCard(imagelink: AssetImage("assets/images/jadot.jpg"),name: 'Yannick Jadot', color: pClearGreen),
                 SizedBox(height: 15),
