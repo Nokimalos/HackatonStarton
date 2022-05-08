@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         '/launch': (context) => const LaunchAnimPage(),
         '/home': (context) => const MyHomePage(),
         //'/vote':(context) =>
-        '/result': (context) => const ResultPage(),
+        '/result': (context) => ResultPage(),
       },
       home: const LaunchAnimPage(),
     );
