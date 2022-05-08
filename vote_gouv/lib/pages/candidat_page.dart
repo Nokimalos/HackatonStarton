@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vote_gouv/constants/colors.dart';
+import 'package:vote_gouv/pages/ResultPage.dart';
 import 'package:vote_gouv/pages/vote_page.dart';
+import 'package:vote_gouv/pages/home_page.dart';
 import 'package:vote_gouv/widget/bottom_nav_bar.dart';
 
 class MyMelenchonPage extends StatefulWidget {
@@ -91,6 +94,13 @@ class _MyMelenchonPage extends State<MyMelenchonPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -126,6 +136,13 @@ class _MyMarinePage extends State<MyMarinePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -161,6 +178,13 @@ class _MyNathaliePage extends State<MyNathaliePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -196,6 +220,13 @@ class _MyNicolasPage extends State<MyNicolasPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -231,6 +262,13 @@ class _MyAnnePage extends State<MyAnnePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -266,6 +304,13 @@ class _MyYannickPage extends State<MyYannickPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -301,6 +346,13 @@ class _MyJeanPage extends State<MyJeanPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -336,6 +388,13 @@ class _MyEmmanuelPage extends State<MyEmmanuelPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -371,6 +430,13 @@ class _MyValeriePage extends State<MyValeriePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -406,6 +472,13 @@ class _MyPhilippePage extends State<MyPhilippePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -441,6 +514,13 @@ class _MyFabienPage extends State<MyFabienPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
@@ -476,6 +556,13 @@ class _MyZemmourPage extends State<MyZemmourPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       body: Container(
         width: 500,
         color: Color.fromARGB(255, 255, 255, 243),
