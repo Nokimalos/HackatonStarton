@@ -33,3 +33,6 @@ Pour pallier à cela, nous avons solicité l'aide de l'équipe de Starton, ainsi
 
 ## Installation :arrow_down:
 ### Go to [SETUP.md](https://github.com/Nokimalos/HackatonStarton/blob/main/SETUP.md)
+
+
+RIEN EST CENTRALISÉE
