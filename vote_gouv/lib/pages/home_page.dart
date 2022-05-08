@@ -4,7 +4,7 @@ import 'package:vote_gouv/constants/colors.dart';
 import 'package:vote_gouv/pages/ResultPage.dart';
 import 'package:vote_gouv/pages/vote_page.dart';
 import 'package:vote_gouv/widget/bottom_nav_bar.dart';
-
+import 'candidat_page.dart';
 
 import '../widget/card_info.dart';
 
@@ -70,76 +70,163 @@ class ListCandidate extends StatelessWidget {
             ),
             const SizedBox(height: 25),
             MyCard(
-                imagelink: const AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),
+                imagelink:
+                    const AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),
                 name: 'Jean-Luc-Melenchon',
                 color: pClearRed,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyMelenchonPage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/marine.jpg"),
                 name: 'Marine Le Pen',
                 color: pBlackBlue,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyMarinePage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
-                imagelink: const AssetImage("assets/images/Nathalie-Arthaud.jpg"),
+                imagelink:
+                    const AssetImage("assets/images/Nathalie-Arthaud.jpg"),
                 name: 'Nathalie Arthaud',
                 color: pBlackRed,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyNathaliePage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/nicolas.jpg"),
                 name: 'Nicolas Dupont-Aignan',
                 color: pClearBlue,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyNicolasPage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/hidalgo.jpg"),
                 name: 'Anne Hidalgo',
                 color: pClearRed,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyAnnePage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/jadot.jpg"),
                 name: 'Yannick Jadot',
                 color: pClearGreen,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyYannickPage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/lasalle.jpg"),
                 name: 'Jean Lassalle',
                 color: pClearBlue,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyJeanPage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/macron.jpg"),
                 name: 'Emmanuel Macron',
                 color: pClearBlue,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyEmmanuelPage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/pecresse.jpg"),
                 name: 'Valérie Pécresse',
                 color: pBlackBlue,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyValeriePage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/poutou.jpg"),
                 name: 'Philippe Poutou',
                 color: pBlackRed,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyPhilippePage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/roussel.jpg"),
                 name: 'Fabien Roussel',
                 color: pClearRed,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyFabienPage(),
+                    ),
+                  );
+                }),
             const SizedBox(height: 15),
             MyCard(
                 imagelink: const AssetImage("assets/images/zemour.jpg"),
                 name: 'Éric Zemmour',
                 color: pBlackBlue,
-                onTap: () {}),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const MyZemmourPage(),
+                    ),
+                  );
+                }
+            ),
           ],
         ));
   }
