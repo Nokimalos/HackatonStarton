@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vote_gouv/constants/colors.dart';
+import 'package:vote_gouv/pages/vote_page.dart';
 import 'package:vote_gouv/widget/bottom_nav_bar.dart';
 
 import '../widget/card_info.dart';
@@ -15,7 +16,9 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   static final List<Widget> _widgetOptions = <Widget>[
-
+    const ListCandidate(),
+    const MyVotePage(),
+    const MyVotePage(),
   ];
 
   int _selectedIndex = 0;
@@ -34,41 +37,52 @@ class _MyHomePageState extends State<MyHomePage> {
         selectedIndex: _selectedIndex,
       ),
       body: Container(
+         child: _widgetOptions.elementAt(_selectedIndex),
          padding: const EdgeInsets.all(25.0),
-         child: SingleChildScrollView(
-             scrollDirection: Axis.vertical,
-             child: Column(
-               children: const [
-                SizedBox(height: 25),
-                Text("Les candidats", textAlign: TextAlign.start, style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),),
-                SizedBox(height: 25),
-                MyCard(imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),name: 'Jean-Luc-Melenchon', color: pClearRed,),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/marine.jpg"),name: 'Marine Le Pen', color: pBlackBlue),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/Nathalie-Arthaud.jpg"),name: 'Nathalie Arthaud', color: pBlackRed),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/nicolas.jpg"),name: 'Nicolas Dupont-Aignan', color: pClearBlue),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/hidalgo.jpg"),name: 'Anne Hidalgo', color: pClearRed),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/jadot.jpg"),name: 'Yannick Jadot', color: pClearGreen),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/lasalle.jpg"),name: 'Jean Lassalle', color: pClearBlue),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/macron.jpg"),name: 'Emmanuel Macron', color: pClearBlue),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/pecresse.jpg"),name: 'Valérie Pécresse', color: pBlackBlue),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/poutou.jpg"),name: 'Philippe Poutou', color: pBlackRed),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/roussel.jpg"),name: 'Fabien Roussel', color: pClearRed),
-                SizedBox(height: 15),
-                MyCard(imagelink: AssetImage("assets/images/zemour.jpg"),name: 'Éric Zemmour', color: pBlackBlue),
-              ],
-            )
-          ),
        ),
     );
+  }
+}
+
+class ListCandidate extends StatelessWidget {
+  const ListCandidate({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Column(
+          children: const [
+           SizedBox(height: 25),
+           Text("Les candidats", style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold, fontFamily: 'Roboto'),),
+           SizedBox(height: 25),
+           MyCard(imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),name: 'Jean-Luc-Melenchon', color: pClearRed,),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/marine.jpg"),name: 'Marine Le Pen', color: pBlackBlue),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/Nathalie-Arthaud.jpg"),name: 'Nathalie Arthaud', color: pBlackRed),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/nicolas.jpg"),name: 'Nicolas Dupont-Aignan', color: pClearBlue),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/hidalgo.jpg"),name: 'Anne Hidalgo', color: pClearRed),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/jadot.jpg"),name: 'Yannick Jadot', color: pClearGreen),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/lasalle.jpg"),name: 'Jean Lassalle', color: pClearBlue),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/macron.jpg"),name: 'Emmanuel Macron', color: pClearBlue),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/pecresse.jpg"),name: 'Valérie Pécresse', color: pBlackBlue),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/poutou.jpg"),name: 'Philippe Poutou', color: pBlackRed),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/roussel.jpg"),name: 'Fabien Roussel', color: pClearRed),
+           SizedBox(height: 15),
+           MyCard(imagelink: AssetImage("assets/images/zemour.jpg"),name: 'Éric Zemmour', color: pBlackBlue),
+         ],
+       )
+     );
   }
 }
