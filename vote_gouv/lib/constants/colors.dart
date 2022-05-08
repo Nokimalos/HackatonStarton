@@ -13,3 +13,4 @@ const Color pClearRed = Color.fromRGBO(255, 74, 74, 0.4);
 const Color pClear = Color.fromRGBO(253, 240, 213, 0.4);
 const Color pBlackBlue = Color.fromRGBO(1, 4, 74, 0.4);
 const Color pClearBlue = Color.fromRGBO(135, 140, 255, 0.4);
+const Color grise = Color.fromRGBO(97, 97, 97, 0);

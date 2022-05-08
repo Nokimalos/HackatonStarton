@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-
-
+import 'package:google_fonts/google_fonts.dart';
 
 class MyCard extends StatelessWidget {
-  const MyCard({ Key? key, required this.imagelink, required this.name, required this.color }) : super(key: key);
+  const MyCard({ Key? key, required this.imagelink, required this.name, required this.color, required this.onTap }) : super(key: key);
 
   final AssetImage imagelink;
   final String name;
   final Color color;
+  final void Function() onTap;
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -21,18 +21,19 @@ class MyCard extends StatelessWidget {
           Ink.image(
               image: imagelink,
               child: InkWell(
-                onTap: () {},
+                onTap: onTap,
               ),
-              height: 200,
+              height: 180,
               fit: BoxFit.cover,
               colorFilter: ColorFilter.mode(color, BlendMode.srcOver)
             ),
             Text(
               name,
-              style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 24,
+              style: GoogleFonts.bebasNeue(
+                textStyle: const TextStyle(
+                  fontSize: 34,
+                  color: Colors.white,
+                ),
               ),
             ),
         ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vote_gouv/constants/colors.dart';
 import 'package:vote_gouv/pages/vote_page.dart';
 import 'package:vote_gouv/widget/bottom_nav_bar.dart';
@@ -53,77 +54,91 @@ class ListCandidate extends StatelessWidget {
     return SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
-          children: const [
+          children: [
             SizedBox(height: 25),
             Text(
               "Les candidats",
-              style: TextStyle(
+              style: GoogleFonts.bebasNeue(
+                textStyle: const TextStyle(
+                  letterSpacing: 6,
+                  fontSize: 45,
                   color: Colors.black,
-                  fontSize: 35,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'Roboto'),
+                  fontWeight: FontWeight.w900,
+                ),
+              ),
             ),
             SizedBox(height: 25),
             MyCard(
-              imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),
-              name: 'Jean-Luc-Melenchon',
-              color: pClearRed,
-            ),
+                imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),
+                name: 'Jean-Luc-Melenchon',
+                color: pClearRed,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/marine.jpg"),
                 name: 'Marine Le Pen',
-                color: pBlackBlue),
+                color: pBlackBlue,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/Nathalie-Arthaud.jpg"),
                 name: 'Nathalie Arthaud',
-                color: pBlackRed),
+                color: pBlackRed,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/nicolas.jpg"),
                 name: 'Nicolas Dupont-Aignan',
-                color: pClearBlue),
+                color: pClearBlue,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/hidalgo.jpg"),
                 name: 'Anne Hidalgo',
-                color: pClearRed),
+                color: pClearRed,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/jadot.jpg"),
                 name: 'Yannick Jadot',
-                color: pClearGreen),
+                color: pClearGreen,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/lasalle.jpg"),
                 name: 'Jean Lassalle',
-                color: pClearBlue),
+                color: pClearBlue,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/macron.jpg"),
                 name: 'Emmanuel Macron',
-                color: pClearBlue),
+                color: pClearBlue,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/pecresse.jpg"),
                 name: 'Valérie Pécresse',
-                color: pBlackBlue),
+                color: pBlackBlue,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/poutou.jpg"),
                 name: 'Philippe Poutou',
-                color: pBlackRed),
+                color: pBlackRed,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/roussel.jpg"),
                 name: 'Fabien Roussel',
-                color: pClearRed),
+                color: pClearRed,
+                onTap: () {}),
             SizedBox(height: 15),
             MyCard(
                 imagelink: AssetImage("assets/images/zemour.jpg"),
                 name: 'Éric Zemmour',
-                color: pBlackBlue),
+                color: pBlackBlue,
+                onTap: () {}),
           ],
         ));
   }
