@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vote_gouv/constants/colors.dart';
 import 'package:vote_gouv/widget/bottom_nav_bar.dart';
 
+import '../widget/card_elections.dart';
 import '../widget/card_info.dart';
 
 class MyVotePage extends StatefulWidget {
@@ -19,24 +20,15 @@ class _MyVotePageState extends State<MyVotePage> {
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/nicolas.jpg"),name: 'Nicolas Dupont-Aignan', color: pClearBlue, onTap: (){} ),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/hidalgo.jpg"),name: 'Anne a Hidalgo', color: pClearRed, onTap: (){}),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/jadot.jpg"),name: 'Yannick Jadot', color: pClearGreen, onTap: (){}),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/lasalle.jpg"),name: 'Jean Lassalle', color: pClearBlue, onTap: (){}),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/macron.jpg"),name: 'Emmanuel Macron', color: pClearBlue, onTap: (){}),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/pecresse.jpg"),name: 'Valérie Pécresse', color: pBlackBlue, onTap: (){}),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/poutou.jpg"),name: 'Philippe Poutou', color: pBlackRed, onTap: (){}),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/roussel.jpg"),name: 'Fabien Roussel', color: pClearRed, onTap: (){}),
-             SizedBox(height: 15),
-             MyCard(imagelink: AssetImage("assets/images/zemour.jpg"),name: 'Éric Zemmour', color: pBlackBlue, onTap: (){}),
+              Text("Élections", style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold, fontFamily: 'Roboto'),),
+              SizedBox(height: 15),
+              MyElectionCard(imagelink: AssetImage("assets/images/présidentielles.jpg"),name: 'Présidentielles', color: grise, onTap: (){}),
+              SizedBox(height: 15),
+              MyElectionCardDead(imagelink: AssetImage("assets/images/législatives.jpg"),name: 'Législatives', color: grise, onTap: (){}),
+              SizedBox(height: 15),
+              MyElectionCardDead(imagelink: AssetImage("assets/images/municipales.jpg"),name: 'Municipales', color: grise, onTap: (){}),
+              SizedBox(height: 15),
+              MyElectionCardDead(imagelink: AssetImage("assets/images/européennes.jpg"),name: 'Européennes', color: grise, onTap: (){}),
            ],
          )
        ),
