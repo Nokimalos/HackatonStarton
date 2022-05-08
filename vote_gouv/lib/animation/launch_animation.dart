@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:vote_gouv/auth/biometric_auth.dart';
 import 'package:vote_gouv/constants/colors.dart';
-import 'package:vote_gouv/pages/home_page.dart';
+
 
 class LaunchAnimPage extends StatefulWidget {
   const LaunchAnimPage({Key? key}) : super(key: key);
@@ -90,7 +91,9 @@ class _LaunchAnimPageState extends State<LaunchAnimPage>
                       : CrossFadeState.showSecond,
                   duration: const Duration(seconds: 2),
                 ),
-                const SizedBox(height: 40,),
+                const SizedBox(
+                  height: 40,
+                ),
                 Center(
                   child: AnimatedOpacity(
                     opacity: isTextReady ? 1 : 0,
@@ -127,9 +130,10 @@ class BottomPart extends StatelessWidget {
             const SizedBox(height: 30.0),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(context,MaterialPageRoute(
-                                      builder: (context) =>
-                                      const MyHomePage()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const BiometricAuthentication(appBarTitle: 'toto',)));
               },
               child: const Text(
                 'Accueil',
@@ -140,10 +144,10 @@ class BottomPart extends StatelessWidget {
                 ),
               ),
               style: ElevatedButton.styleFrom(
-                primary: clearBlue,
-                fixedSize: const Size(300, 100),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(50))),
+                  primary: clearBlue,
+                  fixedSize: const Size(300, 100),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(50))),
             ),
           ],
         ),
