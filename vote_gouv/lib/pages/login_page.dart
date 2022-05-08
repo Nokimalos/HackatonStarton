@@ -14,6 +14,13 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.black, //change your color here
+        ),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
+        elevation: 0.0,
+      ),
       backgroundColor: Colors.white,
       body: Container(
         height: MediaQuery.of(context).size.height,
