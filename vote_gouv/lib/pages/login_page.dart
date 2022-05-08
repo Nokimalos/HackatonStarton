@@ -83,15 +83,22 @@ class _LoginState extends State<Login> {
               ),
               const SizedBox(height: 55),
               SizedBox(
-                height: 50,
+                height: 65,
                 width: 250,
                 child: ElevatedButton(
                   style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(97, 67, 133, 1)),
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20.0),
+                            )),
+                    backgroundColor: MaterialStateProperty.all(
+                        const Color.fromRGBO(97, 67, 133, 1)),
                   ),
                   onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => const ConnectedPage()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => const ConnectedPage()));
                   },
                   child: const Text(
                     'Login',

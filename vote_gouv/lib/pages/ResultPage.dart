@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'package:syncfusion_flutter_charts/charts.dart';
 
@@ -23,22 +24,38 @@ class _ResultPageState extends State<ResultPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-        child: Scaffold(
-      body: SfCircularChart(
-          title: ChartTitle(text: 'Résultats des présidentielles'),
-          legend: Legend(
-              isVisible: true,
-              overflowMode: LegendItemOverflowMode.wrap,
-              position: LegendPosition.bottom),
-          tooltipBehavior: _tooltipBehavior,
-          series: <CircularSeries>[
-            PieSeries<GDPData, String>(
-                dataSource: _chartData,
-                xValueMapper: (GDPData data, _) => data.continent,
-                yValueMapper: (GDPData data, _) => data.gdb,
-                dataLabelSettings: const DataLabelSettings(isVisible: true),
-                enableTooltip: true)
+            child: Column(
+      children: [
+        Text(
+          "Résultats présidentielles",
+          style: GoogleFonts.bebasNeue(
+            textStyle: const TextStyle(
+              letterSpacing: 6,
+              fontSize: 45,
+              color: Colors.black,
+              fontWeight: FontWeight.w900,
+            ),
+          ),
+        ),
+        const SizedBox(height: 25),
+Expanded(
+          flex: 10, // 20%
+          child:  SfCircularChart(
+              legend: Legend(
+                height: '40%',
+                  isVisible: true,
+                  overflowMode: LegendItemOverflowMode.wrap,
+                  position: LegendPosition.bottom),
+              tooltipBehavior: _tooltipBehavior,
+              series: <CircularSeries>[
+                PieSeries<GDPData, String>(
+                    dataSource: _chartData,
+                    xValueMapper: (GDPData data, _) => data.continent,
+                    yValueMapper: (GDPData data, _) => data.gdb,
+                    dataLabelSettings: const DataLabelSettings(isVisible: true),
+                    enableTooltip: true)
           ]),
+ ) ],
     ));
   }
 
@@ -60,14 +77,6 @@ class _ResultPageState extends State<ResultPage> {
     return chartData;
   }
 }
-
-// List<double> getPourcentage() {
-//   final List<double> Pourcentage = [
-
-//   ];
-//   return Pourcentage;
-// }
-
 class GDPData {
   GDPData(this.continent, this.gdb);
   final String continent;

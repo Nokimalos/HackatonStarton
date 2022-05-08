@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vote_gouv/constants/colors.dart';
 import 'package:vote_gouv/pages/ResultPage.dart';
+import 'package:vote_gouv/pages/connected_page.dart';
 import 'package:vote_gouv/pages/vote_page.dart';
 import 'package:vote_gouv/widget/bottom_nav_bar.dart';
 import 'candidat_page.dart';
@@ -20,6 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const ListCandidate(),
     const MyVotePage(),
     const ResultPage(),
+    const ConnectedPage(),
   ];
 
   int _selectedIndex = 0;
