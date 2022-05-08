@@ -41,8 +41,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -54,8 +53,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -68,8 +66,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -81,8 +78,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -94,8 +90,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -107,8 +102,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -120,8 +114,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -133,8 +126,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -146,8 +138,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -159,8 +150,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -172,8 +162,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
                 const SizedBox(height: 15),
                 MyCard(
@@ -185,8 +174,7 @@ class ConnectedPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  const BiometricAuthentication(
-                                      appBarTitle: 'A voté !')));
+                                  const BiometricAuthentication()));
                     }),
               ],
             )),
