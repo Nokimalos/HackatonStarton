@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:vote_gouv/auth/biometric_auth.dart';
 import 'package:vote_gouv/constants/colors.dart';
+import 'package:vote_gouv/pages/home_page.dart';
 
 
 class LaunchAnimPage extends StatefulWidget {
@@ -133,7 +134,7 @@ class BottomPart extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const BiometricAuthentication(appBarTitle: 'toto',)));
+                        builder: (context) => const MyHomePage()));
               },
               child: const Text(
                 'Accueil',
