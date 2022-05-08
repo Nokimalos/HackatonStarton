@@ -22,11 +22,11 @@ class _MyBottomNavBarState extends State<MyBottomNavBar> {
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.trending_up),
+          icon: Icon(Icons.how_to_vote),
           label: 'Vote',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.how_to_vote),
+          icon: Icon(Icons.trending_up),
           label: 'Résultat',
         ),
       ],
