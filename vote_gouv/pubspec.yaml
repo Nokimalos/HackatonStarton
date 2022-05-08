@@ -43,6 +43,8 @@ dependencies:
   hive: ^2.1.0
   hive_flutter: ^1.1.0
   local_auth: ^2.0.1
+  flutter_web3: ^2.1.9
+  provider: ^6.0.2
 
 
 dev_dependencies:
