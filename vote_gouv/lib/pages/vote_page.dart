@@ -4,16 +4,16 @@ import 'package:vote_gouv/widget/bottom_nav_bar.dart';
 
 import '../widget/card_info.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class MyVotePage extends StatefulWidget {
+  const MyVotePage({Key? key}) : super(key: key);
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<MyVotePage> createState() => _MyVotePageState();
 }
 
 
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyVotePageState extends State<MyVotePage> {
   static final List<Widget> _widgetOptions = <Widget>[
 
   ];
@@ -39,8 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
              scrollDirection: Axis.vertical,
              child: Column(
                children: const [
-                SizedBox(height: 25),
-                Text("Les candidats", textAlign: TextAlign.start, style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),),
                 SizedBox(height: 25),
                 MyCard(imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),name: 'Jean-Luc-Melenchon', color: pClearRed,),
                 SizedBox(height: 15),
