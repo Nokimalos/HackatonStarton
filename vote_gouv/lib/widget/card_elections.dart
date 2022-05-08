@@ -1,3 +1,4 @@
+import 'package:blur/blur.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/colors.dart';
@@ -7,7 +8,7 @@ import '../constants/colors.dart';
 class MyElectionCardDead extends StatelessWidget {
   const MyElectionCardDead({ Key? key, required this.imagelink, required this.name, required this.color, required this.onTap }) : super(key: key);
 
-  final AssetImage imagelink;
+  final String imagelink;
   final String name;
   final Color color;
   final void Function() onTap;
@@ -21,21 +22,20 @@ class MyElectionCardDead extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: [
-          Ink.image(
-              image: imagelink,
-              child: InkWell(
-                onTap: onTap,
-              ),
+          Image.asset(
+              imagelink,
               height: 130,
+              width : 400,
               fit: BoxFit.cover,
-              colorFilter: ColorFilters.greyscale,
+            ).blurred(
+              colorOpacity: 0.2,
             ),
             Text(
               name,
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
-                fontSize: 24,
+                fontSize: 30,
               ),
             ),
         ],
@@ -47,7 +47,7 @@ class MyElectionCardDead extends StatelessWidget {
 class MyElectionCard extends StatelessWidget {
   const MyElectionCard({ Key? key, required this.imagelink, required this.name, required this.color, required this.onTap }) : super(key: key);
 
-  final AssetImage imagelink;
+  final String imagelink;
   final String name;
   final Color color;
   final void Function() onTap;
@@ -61,12 +61,10 @@ class MyElectionCard extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: [
-          Ink.image(
-              image: imagelink,
-              child: InkWell(
-                onTap: onTap,
-              ),
+            Image.asset(
+              imagelink,
               height: 130,
+              width : 400,
               fit: BoxFit.cover,
             ),
             Text(
@@ -74,7 +72,7 @@ class MyElectionCard extends StatelessWidget {
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
-                fontSize: 24,
+                fontSize: 30,
               ),
             ),
         ],

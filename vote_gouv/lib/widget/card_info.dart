@@ -24,7 +24,7 @@ class MyCard extends StatelessWidget {
               child: InkWell(
                 onTap: onTap,
               ),
-              height: 200,
+              height: 180,
               fit: BoxFit.cover,
               colorFilter: ColorFilter.mode(color, BlendMode.srcOver)
             ),
