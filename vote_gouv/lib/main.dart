@@ -3,7 +3,8 @@ import 'package:vote_gouv/animation/launch_animation.dart';
 import 'package:vote_gouv/pages/home_page.dart';
 import 'constants/colors.dart';
 
-void main() {
+
+Future<void> main() async {
   runApp(const MyApp());
 }
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/launch':(context) => const LaunchAnimPage(),
+        '/launch': (context) => const LaunchAnimPage(),
         '/home': (context) => const MyHomePage(),
         //'/vote':(context) =>
         //'/result':(context) =>
