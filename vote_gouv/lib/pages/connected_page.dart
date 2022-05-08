@@ -11,7 +11,9 @@ class ConnectedPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return Scaffold(
+      body: Container(
+        child: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
@@ -100,6 +102,9 @@ class ConnectedPage extends StatelessWidget {
                 color: pBlackBlue,
                 onTap: () {}),
           ],
-        ));
+        )),
+        padding: const EdgeInsets.all(25.0),
+      ),
+    );
   }
 }
