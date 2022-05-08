@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
              child: Column(
                children: const [
                 SizedBox(height: 25),
-                Text("Les candidats", style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold,),),
+                Text("Les candidats", textAlign: TextAlign.start, style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),),
                 SizedBox(height: 25),
                 MyCard(imagelink: AssetImage("assets/images/Jean-Luc-Melenchon.jpg"),name: 'Jean-Luc-Melenchon', color: pClearRed,),
                 SizedBox(height: 15),
