@@ -5,7 +5,6 @@ import 'package:vote_gouv/pages/ResultPage.dart';
 import 'constants/colors.dart';
 
 Future<void> main() async {
-  
   runApp(const MyApp());
 }
 
