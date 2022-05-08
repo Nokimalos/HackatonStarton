@@ -20,14 +20,15 @@ class _MyVotePageState extends State<MyVotePage> {
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
+              const SizedBox(height: 17),
               const Text("Élections", style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold, fontFamily: 'Roboto'),),
-              const SizedBox(height: 15),
+              const SizedBox(height: 13),
               MyElectionCard(imagelink: "assets/images/présidentielles.jpg",name: 'Présidentielles', color: grise, onTap: (){}),
-              const SizedBox(height: 15),
+              const SizedBox(height: 10),
               MyElectionCardDead(imagelink: "assets/images/législatives.jpg",name: 'Législatives', color: grise, onTap: (){}),
-              const SizedBox(height: 15),
+              const SizedBox(height: 10),
               MyElectionCardDead(imagelink: "assets/images/municipales.jpg",name: 'Municipales', color: grise, onTap: (){}),
-              const SizedBox(height: 15),
+              const SizedBox(height: 10),
               MyElectionCardDead(imagelink: "assets/images/européennes.jpg",name: 'Européennes', color: grise, onTap: (){}),
            ],
          )

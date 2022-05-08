@@ -60,7 +60,7 @@ class _LaunchAnimPageState extends State<LaunchAnimPage>
                   offset: Offset(3, 3),
                   blurRadius: 10,
                   spreadRadius: 2,
-                  color: Colors.black26,
+                  color: Colors.black,
                 )
               ],
               borderRadius: BorderRadius.only(
@@ -96,7 +96,7 @@ class _LaunchAnimPageState extends State<LaunchAnimPage>
                     opacity: isTextReady ? 1 : 0,
                     duration: const Duration(seconds: 2),
                     child: const Text(
-                      'Nebula Chain',
+                      'Vote Easier',
                       style: TextStyle(
                         fontSize: 36.0,
                       ),
@@ -132,7 +132,7 @@ class BottomPart extends StatelessWidget {
                                       const MyHomePage()));
               },
               child: const Text(
-                'Acceuil',
+                'Accueil',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 255, 255),
                   fontWeight: FontWeight.bold,
@@ -140,7 +140,7 @@ class BottomPart extends StatelessWidget {
                 ),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.green[300],
+                primary: clearBlue,
                 fixedSize: const Size(300, 100),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(50))),
