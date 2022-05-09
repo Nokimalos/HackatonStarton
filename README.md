@@ -17,12 +17,15 @@ Très intéressés par le domaine de la blockchain et du web3, qui offre des pos
 Le vote suscite plusieurs problématiques à notre époque : __Falsification__ :x:, __Écologie__ :recycle:, __Abstention__ :put_litter_in_its_place:. Le but de notre projet est donc de __remédier__ à ces problèmes :
 
 __L'écologie__ :recycle:
+
 Nous sommes convaincus que la blockchain est la solution qui permettrai d'y parvenir, car en votant de cette manière, cela permettrai dans un premier temps de gaspiller moins de papier utilisé pour inscrire le nom des candidats. Cette problématique écologique est d'autant plus importante à notre époque concernant ce qui se passe climatiquement.
 
 __La falsification__ :x:
+
 Dans un second temps, le vote décentralisé nous permet de garantir une élection non truqué, grâce au principe de fonctionnement de la blockchain. Cela garantirai une élection sûr et transparente notamment dans certains gouvernement.
 
 __L'abstention__ :put_litter_in_its_place:
+
 Enfin, le vote "classique", suscite un problème majeur concernant le taux d'absention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration. C'est typyquement concreteme nt ce qu'il s'est passé pour certains d'entre nous.
 
 Le vote décentralisé serait donc une solution respectant l'anonymat des votants, écologiquement correcte pour répondre aux problématiques que rencontre le vote traditionnel.
