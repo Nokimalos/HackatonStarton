@@ -75,6 +75,15 @@ Par la suite nous récuperons seulement la réponse du smart contract que nous e
 
 <br />Voici une [DEMO](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) :play_or_pause_button: pour mettre des images sur ces mots.
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+![asset1](/asset1.png)
+![asset2](/asset2.png)
+![asset3](/asset3.png)
+![asset4](/asset4.png)
+![asset5](/asset5.png)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Built With
