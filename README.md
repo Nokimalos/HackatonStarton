@@ -67,7 +67,7 @@ Pour une meilleur compréhension, je vous invite grandement à visionner cette p
 L'utilisateur peut utiliser l'application sans être connecté pour regarder le programme des candidats ou regarder les résultats.
 
 ➡️ __Etape 2__:<br />
-Il va cliqué sur l'onglet "vote", va choisir un candidat pour lequel voté puis va venir s'identifier avec France connect pour savoir si il a déjà voté et si il est bien francais (Toute interaction avec le back-end ou les bases de données s'arrentent ici).
+Il va cliqué sur l'onglet "vote", va choisir un candidat pour lequel voter puis va venir s'identifier avec France connect pour savoir si il a déjà voté et si il est bien français (Toute interaction avec le back-end ou les bases de données s'arrentent ici).
 
 ➡️ __Etape 3__:<br />
 L'utilisateur va etre confronté a une authentification biometrique (face ID) pour s'assurer qu'aucunes usurpation n'est possible.
