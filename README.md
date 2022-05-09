@@ -31,7 +31,12 @@ C'est pour cela que nous avons décidé de créer une application mobile :iphone
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img
+    src=“images/SubPronouns.jpg”
+    raw=true
+    alt=“Subject Pronouns”
+    style=“margin-right: 10px;”
+/>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -52,16 +57,14 @@ Pour pallier à cela, nous avons solicité l'aide de l'équipe de Starton, ainsi
 <br />
 Pour préciser l'aspect __décentralisé__, en aucuns cas des données de l'utilsateur concernant la blockchain :chains:, son vote :envelope:, le smart contract :spiral_notepad: ou son wallet :mailbox_closed: vont être stockées, traitées ou analysées par notre back end ou france connect.
 
-Pour une meilleur compréhension, je vous invite grandement à visioner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) :play_or_pause_button: que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__.
-
-C'est pour toute ces raisons que la solution que nous proposons est à 100% décentralisé :unlock: et respecte le principe d'anonyma du votant :bust_in_silhouette:.
+Pour une meilleur compréhension, je vous invite grandement à visionner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) :play_or_pause_button: que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__:unlock: et anonyme :bust_in_silhouette:.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Steps
 
 ➡️ __Etape 1__:<br />
-L'utilisateur peux utiliser l'application sans etre connecté pour regarder le programme des candidats ou regarder les resultats
+L'utilisateur peut utiliser l'application sans être connecté pour regarder le programme des candidats ou regarder les resultats
 
 ➡️ __Etape 2__:<br />
 Il va cliqué sur l'onglet "vote", va choisir un candidat pour lequel voté puis va venir s'identifier avec France connect pour savoir si il a déjà voté et si il est bien francais (Toute interaction avec le back-end ou les bases de données s'arrentent ici)
