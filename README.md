@@ -32,7 +32,7 @@ C'est pour cela que nous avons décidé de créer une application mobile :iphone
 
 Pour créer notre application, nous avons utilisé Flutter.
 
-Nous utilisons France Connect pour ouvoir s'identifier à la plateforme Vote.gouv (France COnnect est la solution proposée par l'État pour sécuriser et simplifier la connexion à plus de 1000 services en ligne (demande de passeport, carte nationale d'identité...)). France Connect nous permet également de pouvoir comptabiliser un vote par citoyens. 
+Nous utilisons France Connect pour ouvoir s'identifier à la plateforme Vote.gouv (France Connect est la solution proposée par l'État pour sécuriser et simplifier la connexion à plus de 1000 services en ligne (demande de passeport, carte nationale d'identité...)). France Connect nous permet également de pouvoir comptabiliser un vote par citoyens. 
 :warning: Nous stockons dans notre base de données uniquement le nom et prénom de l'uitlisateur, son numéro de sécurité social, et s'il à déjà voter où non. Nous ne stockons pas son wallet ou la personne pour qui il a voté.
 
 :warning: L'identification via France connect ne sert uniquement qu'à vérifier qu'un citoyen à bel et bien voter une seul fois.
