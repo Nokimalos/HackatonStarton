@@ -32,7 +32,7 @@ C'est pour cela que nous avons décidé de créer une application mobile :iphone
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img
-    src=asset1.png
+    src="./asset1.png"
     raw=true
     style=“margin-right: 10px;”
 />
