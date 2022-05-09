@@ -23,7 +23,7 @@ __La falsification__ :x:<br />
 Dans un second temps, le vote décentralisé nous permet de garantir une élection non truqué, grâce au principe de fonctionnement de la blockchain. Cela garantirai une élection sûr et transparente notamment dans certains gouvernement.
 
 __L'abstention__ :put_litter_in_its_place:<br />
-Enfin, le vote "classique", suscite un problème majeur concernant le taux d'abstention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration. C'est typiquement concreteme nt ce qu'il s'est passé pour certains d'entre nous.
+Enfin, le vote "classique", suscite un problème majeur concernant le taux d'abstention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration. C'est typiquement concretement ce qu'il s'est passé pour certains d'entre nous.
 
 Le vote décentralisé serait donc une solution respectant l'anonymat des votants, écologiquement correcte pour répondre aux problématiques que rencontre le vote traditionnel.
 
@@ -44,8 +44,9 @@ Afin d'accomplir notre tâche, nous avons deployé un Smart contrat, qui donne u
 Les plus grands défis technique que nous avons rencontrés sont le Smart contract, car il nous impose l'apprentissage d'une nouvelle technologique, qui est Solidity, ainsi que relier cela à Meta Mask.
 
 Pour pallier à cela, nous avons solicité l'aide de l'équipe de Starton, ainsi que diviser le travail entre les différents membres du groupe.
-
-Pour préciser l'aspect décentralisé, en aucuns cas des données de l'utilsateur concernant la blockchain, son vote, le smart contract ou son wallet vont etre stockées, traitées ou analysées par notre back end, france connect ou quoi que ca soit.
+<br />
+<br />
+Pour préciser l'aspect __décentralisé__, en aucuns cas des données de l'utilsateur concernant la blockchain :chains:, son vote :envelope:, le smart contract :spiral_notepad: ou son wallet :mailbox_closed: vont etre stockées, traitées ou analysées par notre back end, france connect ou quoi que ca soit.
 
 Pour une meilleur compréhension, je vous invite grandement à visioner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) :play_or_pause_button: que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__.
 
