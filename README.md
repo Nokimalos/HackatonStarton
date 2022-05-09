@@ -32,7 +32,8 @@ C'est pour cela que nous avons décidé de créer une application mobile :iphone
 
 Pour créer notre application, nous avons utilisé Flutter.
 
-via France Connect, la solution proposée par l'État pour sécuriser et simplifier la connexion à plus de 1000 services en ligne (demande de passeport, carte nationale d'identité...). France Connect nous permet également de pouvoir comptabiliser un vote par citoyens.
+Nous utilisons France Connect pour ouvoir s'identifier à la plateforme Vote.gouv (France COnnect est la solution proposée par l'État pour sécuriser et simplifier la connexion à plus de 1000 services en ligne (demande de passeport, carte nationale d'identité...)). France Connect nous permet également de pouvoir comptabiliser un vote par citoyens. 
+:warning: Nous stockons dans notre base de données uniquement le nom et prénom de l'uitlisateur, son numéro de sécurité social, et s'il à déjà voter où non. Nous ne stockons pas son wallet ou la personne pour qui il a voté.
 
 :warning: L'identification via France connect ne sert uniquement qu'à vérifier qu'un citoyen à bel et bien voter une seul fois.
 
@@ -40,7 +41,7 @@ via France Connect, la solution proposée par l'État pour sécuriser et simplif
 
 Pour une meilleur compréhension, je vous invite grandement à visioner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) et cette [démo](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__.
 
-Afin de garantir la non-usurpation d'identité, nous avons implémenté l'autentification biométrique sur l'application, pour garantir un vote   
+Afin de garantir la non-usurpation d'identité, nous avons implémenté l'authentification biométrique (Face ID) sur l'application, pour garantir un vote sûr. 
 
 Afin d'accomplir notre tâche, nous avons deployé un Smart contrat, qui donne un accès direct à une blockchain qui permettra aux citoyens de pouvoir voter pour un candidat. Le smart contract est un logiciel qui ne dispose en tant que tel d'aucune autorité juridique, ainsi, le lien avec le blockchain était une idée primordiale.
 
