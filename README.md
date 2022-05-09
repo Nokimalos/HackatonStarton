@@ -17,13 +17,13 @@ Très intéressés par le domaine de la blockchain et du web3, qui offre des pos
 Le vote suscite plusieurs problématiques à notre époque : __Falsification__ :x:, __Écologie__ :recycle:, __Abstention__ :put_litter_in_its_place:. Le but de notre projet est donc de __remédier__ à ces problèmes :
 
 __L'écologie__ :recycle:<br />
-Nous sommes convaincus que la blockchain est la solution qui permettrai d'y parvenir, car en votant de cette manière, cela permettrai dans un premier temps de gaspiller moins de papier utilisé pour inscrire le nom des candidats. Cette problématique écologique est d'autant plus importante à notre époque concernant ce qui se passe climatiquement.
+Nous sommes convaincus que la blockchain est la solution, car en votant de cette manière, cela permettrai dans un premier temps de gaspiller moins de papier utilisé pour inscrire le nom des candidats. Cette problématique écologique est d'autant plus importante à notre époque concernant ce qui se passe climatiquement.
 
 __La falsification__ :x:<br />
 Dans un second temps, le vote décentralisé nous permet de garantir une élection non truqué, grâce au principe de fonctionnement de la blockchain. Cela garantirai une élection sûr et transparente notamment dans certains gouvernement.
 
 __L'abstention__ :put_litter_in_its_place:<br />
-Enfin, le vote "classique", suscite un problème majeur concernant le taux d'absention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration. C'est typyquement concreteme nt ce qu'il s'est passé pour certains d'entre nous.
+Enfin, le vote "classique", suscite un problème majeur concernant le taux d'abstention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration. C'est typyquement concreteme nt ce qu'il s'est passé pour certains d'entre nous.
 
 Le vote décentralisé serait donc une solution respectant l'anonymat des votants, écologiquement correcte pour répondre aux problématiques que rencontre le vote traditionnel.
 
@@ -49,7 +49,7 @@ Pour préciser l'aspect décentralisé, en aucuns cas des données de l'utilsate
 
 Pour une meilleur compréhension, je vous invite grandement à visioner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) :play_or_pause_button: que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__.
 
-C'est pour toute ces raisons que la solution que nous proposons est à 100% décentralisé et respecte le principe d'anonyma du votant.
+C'est pour toute ces raisons que la solution que nous proposons est à 100% décentralisé :unlock: et respecte le principe d'anonyma du votant :bust_in_silhouette:.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -74,7 +74,7 @@ Il valide son vote et la transaction va etre executé par le smart contract, le 
 Par la suite nous récuperons seulement la réponse du smart contract que nous enregistrons, c'est un champ booléan qui nous indique si oui (1) l'utilisateur a voté ou non (0)
 
 
-Voici une [DEMO](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) :play_or_pause_button: pour mettre des images sur ces mots
+<br />Voici une [DEMO](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) :play_or_pause_button: pour mettre des images sur ces mots
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
