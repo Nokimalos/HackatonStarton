@@ -64,10 +64,10 @@ Il va cliqué sur l'onglet "vote", va choisir un candidat pour lequel voter puis
 L'utilisateur va être confronté à une authentification biométrique (face ID) pour s'assurer qu'aucunes usurpation n'est possible.
 
 ➡️ __Etape 4__:<br />
-Il va ensuite s'authentifié sur meta mask avec l'OAuth 2.0 pour que l'on puisse envoyer son wallet et son vote au smart contract.
+Il va ensuite s'authentifier sur meta mask avec l'OAuth 2.0 pour que l'on puisse envoyer son wallet et son vote au smart contract.
 
 ➡️ __Etape 5__:<br />
-Il valide son vote et la transaction va etre executé par le smart contract, le vote de l'utilisateur est bien public sur la blockchain.
+Il valide son vote et la transaction va être executé par le smart contract, le vote de l'utilisateur est bien public sur la blockchain.
 
 ➡️ __Etape 5__:<br />
 Par la suite nous récuperons seulement la réponse du smart contract que nous enregistrons, c'est un champ booléan qui nous indique si oui (1) l'utilisateur a voté ou non (0).
