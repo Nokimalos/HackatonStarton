@@ -37,7 +37,7 @@ Pour créer notre application, nous avons utilisé Flutter.
 
 L'identifiaction a notre application se fait via France Connect, la solution proposée par l'État pour sécuriser et simplifier la connexion à plus de 1000 services en ligne (demande de passeport, carte nationale d'identité...).
 
-:warning: Pour etre claire, France connect nous permet __seulement__ de savoir si un utilisateur est bien francais et si il a déjà voté ou non. C'est les seuls données qui vont etre stockées avec son nom son prénom et son numéro de sécutié sociale.
+:warning: Pour etre claire, France connect nous permet __seulement__ de savoir si un utilisateur est bien francais et si il a déjà voté ou non. C'est les seuls données qui vont être stockées avec son nom son prénom et son numéro de sécurité sociale.
 
 Afin d'accomplir notre tâche, nous avons deployé un Smart contrat, qui donne un accès direct à une blockchain qui permettra aux citoyens de pouvoir voter pour un candidat. Le smart contract est un logiciel qui ne dispose en tant que tel d'aucune autorité juridique, ainsi, le lien avec le blockchain était une idée primordiale.
 
