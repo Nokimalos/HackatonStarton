@@ -39,7 +39,7 @@ Nous utilisons France Connect pour ouvoir s'identifier à la plateforme Vote.gou
 
 :warning: La solution que nous proposons est à 100% décentralisé et respecte le principe d'anonyma du votant.
 
-Pour une meilleur compréhension, je vous invite grandement à visioner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) et cette [démo](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__.
+Pour une meilleur compréhension, je vous invite grandement à visioner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) :play_or_pause_button: et cette [démo](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) :play_or_pause_button: que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__.
 
 Afin de garantir la non-usurpation d'identité, nous avons implémenté l'authentification biométrique (Face ID) sur l'application, pour garantir un vote sûr. 
 
