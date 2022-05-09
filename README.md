@@ -78,11 +78,11 @@ Par la suite nous récuperons seulement la réponse du smart contract que nous e
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 <div align="center">
-<img src=“./asset1.png.jpg” raw=true style=“margin: 10px;”/>
-<img src=“./asset2.png.jpg” raw=true style=“margin: 10px;”/>
-<img src=“./asset3.png.jpg” raw=true style=“margin: 10px;”/>
-<img src=“./asset4.png.jpg” raw=true style=“margin: 10px;”/>
-<img src=“./asset5.png.jpg” raw=true style=“margin: 10px;”/>
+<img src=“./asset1.png raw=true style=“margin: 10px;”/>
+<img src=“./asset2.png” raw=true style=“margin: 10px;”/>
+<img src=“./asset3.png” raw=true style=“margin: 10px;”/>
+<img src=“./asset4.png” raw=true style=“margin: 10px;”/>
+<img src=“./asset5.png” raw=true style=“margin: 10px;”/>
 </div>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
