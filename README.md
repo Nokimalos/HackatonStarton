@@ -31,6 +31,10 @@ C'est pour cela que nous avons décidé de créer une application mobile :iphone
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Workflow
 
 Pour créer notre application, nous avons utilisé Flutter.
@@ -39,14 +43,14 @@ L'identifiaction a notre application se fait via France Connect, la solution pro
 
 :warning: Pour etre claire, France connect nous permet __seulement__ de savoir si un utilisateur est bien francais et si il a déjà voté ou non. C'est les seuls données qui vont être stockées avec son nom son prénom et son numéro de sécurité sociale.
 
-Afin d'accomplir notre tâche, nous avons deployé un Smart contrat, qui donne un accès direct à une blockchain qui permettra aux citoyens de pouvoir voter pour un candidat. Le smart contract est un logiciel qui ne dispose en tant que tel d'aucune autorité juridique, ainsi, le lien avec le blockchain était une idée primordiale.
+Afin d'accomplir notre tâche, nous avons déployé un Smart contrat, qui donne un accès direct à une blockchain qui permettra aux citoyens de pouvoir voter pour un candidat. Le smart contract est un logiciel qui ne dispose en tant que tel d'aucune autorité juridique, ainsi, le lien avec le blockchain était une idée primordiale.
 
 Les plus grands défis technique que nous avons rencontrés sont le Smart contract, car il nous impose l'apprentissage d'une nouvelle technologique, qui est Solidity, ainsi que relier cela à Meta Mask.
 
 Pour pallier à cela, nous avons solicité l'aide de l'équipe de Starton, ainsi que diviser le travail entre les différents membres du groupe.
 <br />
 <br />
-Pour préciser l'aspect __décentralisé__, en aucuns cas des données de l'utilsateur concernant la blockchain :chains:, son vote :envelope:, le smart contract :spiral_notepad: ou son wallet :mailbox_closed: vont etre stockées, traitées ou analysées par notre back end, france connect ou quoi que ca soit.
+Pour préciser l'aspect __décentralisé__, en aucuns cas des données de l'utilsateur concernant la blockchain :chains:, son vote :envelope:, le smart contract :spiral_notepad: ou son wallet :mailbox_closed: vont être stockées, traitées ou analysées par notre back end ou france connect.
 
 Pour une meilleur compréhension, je vous invite grandement à visioner cette petite [vidéo explicative](https://drive.google.com/file/d/1fkmYWmISnj8Vsye0-JDEE5oHbVOu1w8p/view) :play_or_pause_button: que Valentin à réalisé, pour bien souligner que notre solution est entièrement __décentralisé__.
 
