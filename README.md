@@ -64,25 +64,25 @@ Pour une meilleur compréhension, je vous invite grandement à visionner cette p
 ## Steps
 
 ➡️ __Etape 1__:<br />
-L'utilisateur peut utiliser l'application sans être connecté pour regarder le programme des candidats ou regarder les resultats
+L'utilisateur peut utiliser l'application sans être connecté pour regarder le programme des candidats ou regarder les résultats.
 
 ➡️ __Etape 2__:<br />
-Il va cliqué sur l'onglet "vote", va choisir un candidat pour lequel voté puis va venir s'identifier avec France connect pour savoir si il a déjà voté et si il est bien francais (Toute interaction avec le back-end ou les bases de données s'arrentent ici)
+Il va cliqué sur l'onglet "vote", va choisir un candidat pour lequel voté puis va venir s'identifier avec France connect pour savoir si il a déjà voté et si il est bien francais (Toute interaction avec le back-end ou les bases de données s'arrentent ici).
 
 ➡️ __Etape 3__:<br />
-L'utilisateur va etre confronté a une authentification biometrique (face ID) pour s'assurer qu'aucunes usurpation n'est possible
+L'utilisateur va etre confronté a une authentification biometrique (face ID) pour s'assurer qu'aucunes usurpation n'est possible.
 
 ➡️ __Etape 4__:<br />
-Il va ensuite s'authentifié sur meta mask avec l'OAuth 2.0 pour que l'on puisse envoyer son wallet et son vote au smart contract
+Il va ensuite s'authentifié sur meta mask avec l'OAuth 2.0 pour que l'on puisse envoyer son wallet et son vote au smart contract.
 
 ➡️ __Etape 5__:<br />
-Il valide son vote et la transaction va etre executé par le smart contract, le vote de l'utilisateur est bien public sur la blockchain
+Il valide son vote et la transaction va etre executé par le smart contract, le vote de l'utilisateur est bien public sur la blockchain.
 
 ➡️ __Etape 5__:<br />
-Par la suite nous récuperons seulement la réponse du smart contract que nous enregistrons, c'est un champ booléan qui nous indique si oui (1) l'utilisateur a voté ou non (0)
+Par la suite nous récuperons seulement la réponse du smart contract que nous enregistrons, c'est un champ booléan qui nous indique si oui (1) l'utilisateur a voté ou non (0).
 
 
-<br />Voici une [DEMO](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) :play_or_pause_button: pour mettre des images sur ces mots
+<br />Voici une [DEMO](https://drive.google.com/file/d/17a8oHl-GusAtjVyHCH2KupmGyg_hsRli/view) :play_or_pause_button: pour mettre des images sur ces mots.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
