@@ -1,4 +1,4 @@
-# :mortar_board: Hackaton_Starton
+# :mortar_board: Hackaton_Starton (Burn Spirit)
 ## :trophy: Goal of the Hackaton
 :heavy_check_mark: Realiser un projet qui vise à aider et à construire un avenir décentralisé.
 
@@ -14,13 +14,13 @@ Très intéressés par le domaine de la blockchain et du web3, qui offre des pos
 
 >Notre idée est portée sur un sujet d'actualité récent : le __vote__. :envelope_with_arrow:
 
-Le vote suscite plusieurs problématiques à notre époque : __Falsification__ :x:, __Écologie__ :recycle:, __Abstention__ :put_litter_in_its_place:. Le but de notre projet est donc de __remédier__ à ces problèmes.
+Le vote suscite plusieurs problématiques à notre époque : __Falsification__ :x:, __Écologie__ :recycle:, __Abstention__ :put_litter_in_its_place:. Le but de notre projet est donc de __remédier__ à ces problèmes :
 
-Nous sommes convaincus que la blockchain est la solution qui permettrai d'y parvenir, car en votant de cette manière, cela permettrai dans un premier temps de ne pas gaspiller du papier utilisé pour inscrire le nom des candidats, cela empêchera de retirer certaines piles avec le nom de certains candidats. Cette problématique écologique est d'autant plus importante à notre époque concernant ce qui se passe climatiquement.
+1. Nous sommes convaincus que la blockchain est la solution qui permettrai d'y parvenir car le vote décentralisé nous permet de garantir une élection non truqué, grâce au principe de fonctionnement de la blockchain. Cela garantirai une élection sûr et transparente notamment dans certains gouvernement.
 
-Dans un second temps, le vote décentralisé nous permet de garantir une élection non truqué, grâce au principe de fonctionnement de la blockchain. Cela garantirai une élection sûr et transparente notamment dans certains gouvernement.
+2. En votant de cette manière, cela permettrai également de ne pas gaspiller de papier, utilisé pour inscrire le nom des candidats, cela empêchera de retirer certaines piles avec le nom de certains candidats. Cette problématique écologique est d'autant plus importante à notre époque concernant ce qu'il se passe climatiquement.
 
-Enfin, le vote "classique", suscite un problème majeur concernant le taux d'absention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration.
+3. Enfin, le vote "classique", suscite un problème majeur concernant le taux d'absention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration.
 
 Le vote décentralisé serait donc une solution respectant l'anonymat des votants, écologiquement correcte pour répondre aux problématiques que rencontre le vote traditionnel.
 
@@ -28,9 +28,10 @@ C'est pour cela que nous avons décidé de créer une application mobile :iphone
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 
+## Built with
 
 Tout cela en s'identifiant via France Connect, la solution proposée par l'État pour sécuriser et simplifier la connexion à plus de 1000 services en ligne (demande de passeport, carte nationale d'identité...). France Connect nous permet également de pouvoir comptabiliser un vote par citoyens.
+L'identification 
 
 Afin d'accomplir notre tâche, nous avons deployé un Smart contrat, qui donne un accès direct à une blockchain qui permettra aux citoyens de pouvoir voter pour un candidat. Le smart contract est un logiciel qui ne dispose en tant que tel d'aucune autorité juridique, ainsi, le lien avec le blockchain était une idée primordiale.
 
@@ -44,6 +45,12 @@ Pour pallier à cela, nous avons solicité l'aide de l'équipe de Starton, ainsi
 ### Go to [SETUP.md](https://github.com/Nokimalos/HackatonStarton/blob/main/SETUP.md)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
+
+## License 
+
+Distribué sous licence MIT, voir [``` LICENSE ```](https://github.com/Nokimalos/HackatonStarton/blob/main/LICENSE) pour plus d'informations.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contacts
 
