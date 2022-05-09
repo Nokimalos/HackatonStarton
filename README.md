@@ -23,7 +23,7 @@ __La falsification__ :x:<br />
 Dans un second temps, le vote décentralisé nous permet de garantir une élection non truqué, grâce au principe de fonctionnement de la blockchain. Cela garantirai une élection sûr et transparente notamment dans certains gouvernement.
 
 __L'abstention__ :put_litter_in_its_place:<br />
-Enfin, le vote "classique", suscite un problème majeur concernant le taux d'abstention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration. C'est typyquement concreteme nt ce qu'il s'est passé pour certains d'entre nous.
+Enfin, le vote "classique", suscite un problème majeur concernant le taux d'abstention, desfois par conviction ou plus couramment par soucis de fainéantise. Imaginons que vous soyez occupées à une affaire le dimanche, ou bien qu'il fasse beau, que vous n'ayez donc pas le temps de vous déplacer au bureau de vote ou de faire une procuration. C'est typiquement concreteme nt ce qu'il s'est passé pour certains d'entre nous.
 
 Le vote décentralisé serait donc une solution respectant l'anonymat des votants, écologiquement correcte pour répondre aux problématiques que rencontre le vote traditionnel.
 
