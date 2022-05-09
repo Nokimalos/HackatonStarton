@@ -32,9 +32,8 @@ C'est pour cela que nous avons décidé de créer une application mobile :iphone
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img
-    src=“images/SubPronouns.jpg”
+    src=asset1.png
     raw=true
-    alt=“Subject Pronouns”
     style=“margin-right: 10px;”
 />
 
@@ -70,7 +69,7 @@ L'utilisateur peut utiliser l'application sans être connecté pour regarder le 
 Il va cliqué sur l'onglet "vote", va choisir un candidat pour lequel voter puis va venir s'identifier avec France connect pour savoir si il a déjà voté et si il est bien français (Toute interaction avec le back-end ou les bases de données s'arrentent ici).
 
 ➡️ __Etape 3__:<br />
-L'utilisateur va etre confronté a une authentification biometrique (face ID) pour s'assurer qu'aucunes usurpation n'est possible.
+L'utilisateur va être confronté à une authentification biométrique (face ID) pour s'assurer qu'aucunes usurpation n'est possible.
 
 ➡️ __Etape 4__:<br />
 Il va ensuite s'authentifié sur meta mask avec l'OAuth 2.0 pour que l'on puisse envoyer son wallet et son vote au smart contract.
