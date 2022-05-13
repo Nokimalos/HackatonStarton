@@ -28,10 +28,11 @@ class _ResultPageState extends State<ResultPage> {
       children: [
         Text(
           "Résultats présidentielles",
+          textAlign: TextAlign.center,
           style: GoogleFonts.bebasNeue(
             textStyle: const TextStyle(
               letterSpacing: 6,
-              fontSize: 45,
+              fontSize: 42,
               color: Colors.black,
               fontWeight: FontWeight.w900,
             ),

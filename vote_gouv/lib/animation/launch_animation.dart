@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:vote_gouv/auth/biometric_auth.dart';
 import 'package:vote_gouv/constants/colors.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vote_gouv/pages/home_page.dart';
-
 
 class LaunchAnimPage extends StatefulWidget {
   const LaunchAnimPage({Key? key}) : super(key: key);
@@ -93,16 +93,19 @@ class _LaunchAnimPageState extends State<LaunchAnimPage>
                   duration: const Duration(seconds: 2),
                 ),
                 const SizedBox(
-                  height: 40,
+                  height: 20,
                 ),
                 Center(
                   child: AnimatedOpacity(
                     opacity: isTextReady ? 1 : 0,
                     duration: const Duration(seconds: 2),
-                    child: const Text(
-                      'Vote Easier',
-                      style: TextStyle(
-                        fontSize: 36.0,
+                    child:Text(
+                      'Vot\'Chain',
+                      style: GoogleFonts.bebasNeue(
+                        textStyle: const TextStyle(
+                          fontSize: 60,
+                          color: Colors.black,
+                        ),
                       ),
                     ),
                   ),
@@ -136,12 +139,13 @@ class BottomPart extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) => const MyHomePage()));
               },
-              child: const Text(
+              child:Text(
                 'Accueil',
-                style: TextStyle(
-                  color: Color.fromARGB(255, 255, 255, 255),
-                  fontWeight: FontWeight.bold,
-                  fontSize: 30.0,
+                style: GoogleFonts.bebasNeue(
+                  textStyle: const TextStyle(
+                  fontSize: 34,
+                  color: Colors.white,
+                  ),
                 ),
               ),
               style: ElevatedButton.styleFrom(
